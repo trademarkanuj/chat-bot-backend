@@ -1,0 +1,66 @@
+# -------------------------
+# PYTHON & VENV
+# -------------------------
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+
+# -------------------------
+# DJANGO
+# -------------------------
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+*.log
+
+# Ignore migration caches but keep migrations
+chat/__pycache__/
+chatbot/__pycache__/
+
+# -------------------------
+# ENV FILES
+# -------------------------
+.env
+.env.*
+*.env
+
+# -------------------------
+# NODE / FRONTEND
+# -------------------------
+node_modules/
+dist/
+*.lock
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# -------------------------
+# VSCODE / EDITOR FILES
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# DOCKER / BUILD FILES
+# -------------------------
+*.pid
+*.tar
+.docker/
+docker-compose.override.yml
+
+# -------------------------
+# OS SYSTEM FILES
+# -------------------------
+.DS_Store
+Thumbs.db
