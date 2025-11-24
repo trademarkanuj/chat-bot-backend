@@ -4,3 +4,5 @@ django-cors-headers==4.4.0
 python-dotenv==1.0.1
 google-genai==0.3.0
 gunicorn==23.0.0
+dj-database-url
+psycopg2-binary
